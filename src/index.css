@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Duru+Sans&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Duru Sans", sans-serif;
+  background-color: #f0f2f5;
+}
+.ant-modal-content {
+  background-color: green !important;
+  height: 50px;
+  padding: 0px !important;
+  background-color: white !important;
+}
+.ant-modal-close-icon {
+  color: white;
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 10px;
+}
+.ant-modal-body {
+  background-color: white !important;
+  margin-top: -8px !important;
+}
+
+.anticon {
+  color: white !important;
+  font-weight: bold;
+}
+
+.ant-modal-body {
+  border-radius: 0 0 6px 6px !important;
+}
+.ant-form-item-required {
+  font-family: "Roboto", sans-serif !important;
+  font-weight: 400 !important;
+  font-size: 18px !important;
+  content: "" !important;
+}
+.ant-tag-close-icon {
+  color: black !important;
+  padding-left: 20px;
+  font-size: 18px !important;
+}
+.ant-card-body {
+  padding: 0px;
+  border-radius: 10px !important;
+}
+/* photo libary pagination */
+.ant-pagination-item-link {
+  background-color: #ffffff !important;
+  border: 1px solid #d9d9d9 !important;
+  border-radius: 0px !important;
+}
+.ant-pagination .ant-pagination-item-active {
+  border: 1px solid #1890ff !important;
+  border-radius: 0px !important;
+}
+.ant-pagination .ant-pagination-item-active a {
+  color: #1890ff !important;
+}
+.ant-pagination > li {
+  background-color: #ffffff !important;
+  border: 1px solid #d9d9d9 !important;
+  border-radius: 0px !important;
+}
+.ant-pagination-item-link .anticon {
+  color: black !important;
+}
+.anticon-upload {
+  color: black !important;
+}
+.anticon-down {
+  color: black !important;
+}
+
+.custom-ant-table {
+  margin-bottom: 12px !important;
+}
+
+.ant-menu-item-selected {
+  border-left: 5px solid #ffc500;
+  border-radius: 0px !important;
+}
+
+/* AboutUS page  style*/
+.ql-toolbar {
+  background-color: #ffffff;
+  border-radius: 5px;
+  margin-bottom: 24px;
+  border: 1px solid white !important;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.ql-formats {
+  padding: 10px;
+}
+.ql-container {
+  background-color: #ffffff;
+  border-radius: 5px;
+  min-height: 422px;
+  border: 1px solid white !important;
+}
+.ql-editor {
+  min-height: 422px !important;
+}
+/* .ant-row .ant-form-item-row{
+  display: flex !important;
+  flex-direction: column !important;
+  
+} */
+.ant-popconfirm-buttons .ant-btn-primary {
+  background-color: red;
+}
+.ant-modal-body {
+  border-radius: 10px !important;
+}
+.addClass {
+  margin-top: 40px !important;
+}
+
+.videoStyle video {
+  border: 2px !important;
+  border-radius: 10px !important;
+}
+
+.ant-menu-submenu .ant-menu-submenu-inline .ant-menu-submenu-selected {
+  background-color: "red" !important;
+  color: "bak";
+}
+
+/* my profile */
+
+.ant-tabs-nav-list {
+  display: flex !important;
+  justify-content: center !important;
+  width: 100%;
+}
+.ant-tabs-tab-btn {
+  color: #043249 !important;
+  font-weight: 500 !important;
+  font-size: 18px;
+}
+.ql-formats{
+  padding-left: 60px !important;
+}
